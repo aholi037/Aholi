@@ -33,30 +33,4 @@ if (!$resultado) {
 }
 
 
-              $sentencia ="SELECT * FROM persona";
-              $resultado=mysql_query($sentencia);
-              while($filas=mysql_fetch_assoc($resultado)){
-              echo "<tr>";
-              	echo "<td>";
-              		echo $filas['cod_persona'];
-              	echo "</td>";
-              	echo "<td>";
-              		echo $filas['nombre_persona'];
-              	echo "</td>";
-              	echo "<td>";
-              		echo $filas['apellidos_persona'];
-              	echo "</td>";
-              	echo "<td>";
-              		echo $filas['correo_persona'];
-              	echo "</td>";
-              	echo "<td>";
-              		echo $filas['direccion_persona'];
-              	echo "</td>";
-              	echo "<td>";
-              		echo $filas['grado_persona'];
-              	echo "</td>";
-              echo "</tr>";	
-          }               
-
-
-              ?>
+              
